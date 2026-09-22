@@ -3,10 +3,18 @@
 Todas as alterações notáveis deste projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/) e versionamento semântico.
 
+## [1.0.2] - 2026-09-22
+
+### Adicionado
+- `README.md` com visão geral do projeto, instruções de execução local e como atualizar o conteúdo.
+
+### Corrigido
+- Links de "Ferramentas web" voltam a abrir em nova aba (revertido o `window.open` em janela separada introduzido na 1.0.1).
+
 ## [1.0.1] - 2026-09-22
 
 ### Alterado
-- Links de "Ferramentas web" agora abrem em uma nova janela do navegador (`window.open` com dimensões fixas) em vez de nova aba; pacotes de automação continuam abrindo em nova aba.
+- Links de "Ferramentas web" passaram a abrir em uma nova janela do navegador (`window.open` com dimensões fixas) em vez de nova aba; pacotes de automação continuaram abrindo em nova aba.
 
 ## [1.0.0] - 2026-09-22
 
