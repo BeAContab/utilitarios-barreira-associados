@@ -15,6 +15,7 @@ Site estático que centraliza os utilitários internos da Barreira & Associados 
 - Sem framework/bundler: HTML/CSS/JS puros, sem dependências de build.
 - Ao adicionar/remover um utilitário, editar `data.js` (não hardcode no HTML).
 - Deploy segue o mesmo padrão dos outros utilitários da empresa (Vercel), listados em `links_sites.xlsx`.
+- **Fluxo de git**: a partir de 2026-09-22, mudanças não vão mais direto para `main`. Para cada alteração: criar branch, commitar, abrir PR no GitHub, dar merge e só então fazer push (o merge do PR já resulta no push de `main`). Não commitar direto em `main`.
 
 ## Regras globais (herdadas de `~/.claude/CLAUDE.md`)
 - Responder sempre em português (pt-BR).
